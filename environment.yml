@@ -1,0 +1,13 @@
+name: muzero
+dependencies:
+  - python=3.7
+  - pytorch==1.1.0 
+  - torchvision==0.3.0 
+  - cudatoolkit=9.0
+  - pip:
+    - numpy
+    - tensorboard
+    - gym
+    - ray
+    - seaborn
+    - nevergrad
